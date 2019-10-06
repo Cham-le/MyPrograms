@@ -23,7 +23,8 @@ public class SortByHeight {
 		return a;
 	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		StringBuilder temp = new StringBuilder("abb123");
+		System.out.println(temp.replace(1, 3, "cc"));
 
 	}
 
